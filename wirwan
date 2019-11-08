@@ -1,0 +1,46 @@
+using System;
+
+namespace wirwan  
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Clear();
+            Console.WriteLine("wat is je naam ?");
+            string naam = Console.ReadLine();
+            if (naam == "Erwin")
+                {
+                    Console.Clear();
+                    Console.WriteLine("");
+                    Console.WriteLine("Goedemorgen Erwin ");
+                
+                }
+                 if (naam == "Erik")
+                {
+                    Console.Clear();
+                    Console.WriteLine("");
+                    Console.WriteLine("Goedemorgen Erik");
+                    Console.ReadLine();
+                }
+                else if (naam == "Alex")
+                {
+                    Console.Clear();
+                    Console.WriteLine("");
+                    Console.WriteLine("Goedemorgen Alex");
+                    Console.ReadLine();
+                }
+                else if (naam == "Duneya")
+                {
+                    Console.Clear();
+                    Console.WriteLine("");
+                    Console.WriteLine("Goedemorgen Duneya");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("Goedemorgen maar wie ben? kan je naam misschien schrijen, Bedankt");
+                }
+                }
+                }
+}
