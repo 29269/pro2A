@@ -1,0 +1,50 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {  
+            int health = 100;
+            int fuv = 15;
+            int player1 =health - fuv ;
+            int player2= 12;
+            int player3 = 5;
+            int player4 =  player2/player3;
+            bool player5 = true;
+            bool gameOver = player5;
+            float year = 6.5f;
+            string player6 ="hey Topper";
+            string player7 ="Goed zo ;) ";
+            string player8 = player6 + player7;
+            char charD = 'D';
+
+            Console.WriteLine(charD);         
+            Console.WriteLine(health);        
+            Console.WriteLine(fuv);
+            Console.WriteLine(player1);
+            Console.WriteLine(player2);
+            Console.WriteLine(player3);
+            Console.WriteLine(player4);
+            Console.WriteLine(player5);
+            Console.WriteLine(gameOver);
+            Console.WriteLine(year);
+            Console.WriteLine(player6);
+            Console.WriteLine(player7);
+            Console.WriteLine(player8);
+            Console.WriteLine(charD);
+        }
+         
+    }
+         
+}
+
+
+
+
+
+
