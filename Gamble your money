@@ -1,0 +1,53 @@
+using System;
+
+namespace Gamble_your_Money
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           Random rnd = new Random();
+            int month  = rnd.Next(1, 13);  
+            int dice   = rnd.Next(1, 7);   
+            int card   = rnd.Next(52);
+            int Sad;
+            int geld = 1000;
+            Console.WriteLine("wil je bigenen met 1000 beginen of met 2000 ");
+             string input = Console.ReadLine();
+
+            while(geld>0)
+            {
+
+
+
+                //hier komt gokspel 1\
+             if( input == "1000"){
+             Console.WriteLine("wil je graag spelen?");
+             Console.WriteLine("ja of nee");
+             Console.ReadLine();
+            
+             if (input == "ja"){
+                Sad = rnd.Next(-200, 100);
+                geld += Sad;
+                Console.WriteLine("je hebt er "+Sad+ " bij gekregen");
+                Console.WriteLine("JE HEBT "+geld + " EURO OVER");
+                Console.WriteLine("wil je nog meer geld?");
+             }
+             else if(input == "nee")
+             {
+                Console.WriteLine("je hebt nog"+ geld);
+                break;
+             }
+
+            }
+            }
+            for(int i = 0; i < 10; i++){
+
+                int kas = rnd.Next(-100,80);
+                geld +=kas;
+                Console.WriteLine("je hebt nog"+ geld);
+            }
+
+        }
+    }
+}
