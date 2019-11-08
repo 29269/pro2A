@@ -1,0 +1,44 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace ConsoleApplication11
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {  
+          // Write to console window.
+            string naam;
+            string adres;
+            string leeftijd;
+            string ogen;
+        
+             Console.WriteLine("----------------Enter your name---------------");
+            naam = Console.ReadLine();
+           
+            Console.WriteLine("---------------Waar woon je?---------------");
+            adres = Console.ReadLine();
+            
+             Console.WriteLine("---------------Hoe oud ben je?---------------");
+             leeftijd = Console.ReadLine();
+             
+              
+             Console.WriteLine("---------------welke kleur ogen heb je?---------------");
+             ogen = Console.ReadLine();
+            Console.WriteLine("------------------------------");
+            Console.WriteLine("Hallo" + naam + adres + "leuk plaats"  + "ben je echt" +
+                              leeftijd + "heb je echt" + ogen + "zo mooi,ik heb nu zin om je te ontmoeten^_^" );
+             Console.WriteLine("Hallo"); Console.WriteLine(naam); Console.WriteLine(adres);
+             Console.WriteLine("is een leuke plaats vind ik"); Console.WriteLine("ben je echt");
+             Console.WriteLine(leeftijd); Console.WriteLine("jaar."); Console.WriteLine("heb je echt");
+             Console.WriteLine(ogen); Console.WriteLine("ogen");
+             Console.WriteLine("zo mooi,ik heb nu zin om je te ontmoeten^_^");
+            
+             
+
+            
+        }
+    }
+}
+ 
