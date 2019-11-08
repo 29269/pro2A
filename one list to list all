@@ -1,0 +1,28 @@
+using System;
+
+namespace One_list_to_list__em_all
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        string [] arraylist = {"Leeteuk"," Heechul", "Shindong", "Donghae", "Siwon", "Kyuhyun", "Eunhyuk", "yesung", "Ryeowook" };
+        Console.WriteLine( "Super Junior" );
+
+        Console.WriteLine(arraylist[0] +" "+arraylist[5]);
+
+        Console.WriteLine( "    Leider:    {0}", arraylist );
+        Console.WriteLine( "    zanger en presentator: {1}", arraylist );
+        Console.WriteLine( "    Rapper: {2}", arraylist );
+        Console.WriteLine( "    Zanger and Acteur: {3}", arraylist );
+        Console.WriteLine( "    zanger, model and acteur: {4}", arraylist );
+        Console.WriteLine( "    zanger and muziektheateracteur: {5}", arraylist );
+        Console.WriteLine( "    zanger, Rapper and danser: {6}", arraylist );
+        Console.WriteLine( "    zanger: {7}", arraylist );
+        Console.WriteLine( "    zanger en muzikale acteur: {8}", arraylist );
+        Console.Write( "2019" );
+       
+        }
+    }
+}
+
